@@ -1,1 +1,83 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFD53D; /* gold */
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-family: Arial, sans-serif;
+            font-size: 16rem; /* Larger font size for the hero text */
+            color: #0067B3; /* blue grotto, matches call to action button */
+            margin: 0;
+        }
+
+        .placeholder {
+            text-align: center;
+            font-size: 1rem; /* Small font size for placeholder text */
+            color: #0000A3;
+            padding: 0 10px;
+        }
+        
+        /* Button styles */
+        .contact-button {
+            display: inline-block;
+            background-color: #0067B3; /* blue grotto */
+            color: #C2E2F5; /* baby blue */
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 4rem; /* Adjust the size for smaller screens */
+            }
+            .placeholder {
+                font-size: 0.6rem; /* Adjust the size for smaller screens */
+            }
+            .contact-button {
+                font-size: 0.8rem;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 3rem; /* Further adjust the size for very small screens */
+            }
+            .placeholder {
+                font-size: 0.5rem; /* Further adjust the size for very small screens */
+            }
+            .contact-button {
+                font-size: 0.8rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>HI</h1>
+        <p class="placeholder">I'm Sangeetha Sankaran.</p>
+        <p class="placeholder">I'm a technologist and humanist.</p>
+        <a class="contact-button" href="mailto:ssankaran17@gmail.com">Let's build something together!</a>
+    </div>
+
+</body>
+</html>
